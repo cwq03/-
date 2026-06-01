@@ -1,0 +1,29 @@
+{
+  "model_type": "logistic_regression",
+  "feature_names": [
+    "word_tfidf",
+    "char_ngram_tfidf",
+    "normalized_jaccard",
+    "edit_similarity",
+    "fusion_before_penalty",
+    "rule_score",
+    "negation_mismatch",
+    "opposite_mismatch",
+    "negation_penalty",
+    "opposite_penalty"
+  ],
+  "weights": [
+    1.7976376500706406,
+    0.3767447757981003,
+    2.384051496028605,
+    -0.1337648392972719,
+    1.538542310844825,
+    1.5093091328585428,
+    -0.3722501849561409,
+    0.24138418671683812,
+    -0.20443641750157454,
+    -0.48495856997324577
+  ],
+  "bias": -5.258344965686241,
+  "threshold": 0.5
+}
